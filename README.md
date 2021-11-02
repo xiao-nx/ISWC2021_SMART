@@ -10,9 +10,15 @@ We present our appoarch to predict types from an ontology for questions. The wor
 ![Fig3](https://user-images.githubusercontent.com/72255811/139656510-3377afaa-ab09-41d8-82ff-151a36b050cf.jpg)
 
 How to use our code? 
+
 data_analysis.ipynb: Simple data analysis. 
-Step1: run BERT_classifier_5classes.ipynb to get category classification model. 
+
+Step1: run BERT_classifier_5classes.ipynb to get category classification model.
+
 Step2: run bert_resources_top.py to get general answer type rediction model for resource category. 
+
 Step3: run bert_resources_bottom.py to get specific answer type rediction model for resource category. 
+
 Step4: run Combined_prediction.ipynb to combine all the models to predicae the final results. 
+
  
