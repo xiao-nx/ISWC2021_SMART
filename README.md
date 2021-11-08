@@ -11,7 +11,7 @@ We present our appoarch to predict types from an ontology for questions. The wor
 
 ## How to use our code? 
 
-data_analysis.ipynb: Simple data analysis. 
+* Step0: data_analysis.ipynb: Simple data analysis. 
 
 * Step1: run BERT_classifier_5classes.ipynb to get category classification model.
 
